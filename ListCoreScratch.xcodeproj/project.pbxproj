@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B014B5F225D728D800C39E4F /* Dish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B014B5EF25D728D800C39E4F /* Dish.xcdatamodeld */; };
+		B014B5F325D728D800C39E4F /* Dish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B014B5EF25D728D800C39E4F /* Dish.xcdatamodeld */; };
 		B06818CA25D7164100562BD3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06818C925D7164100562BD3 /* Tests_iOS.swift */; };
 		B06818D525D7164100562BD3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06818D425D7164100562BD3 /* Tests_macOS.swift */; };
 		B06818D725D7164100562BD3 /* ListCoreScratchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06818AE25D7164000562BD3 /* ListCoreScratchApp.swift */; };
@@ -15,6 +17,8 @@
 		B06818DA25D7164100562BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06818AF25D7164000562BD3 /* ContentView.swift */; };
 		B06818DB25D7164100562BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06818B025D7164100562BD3 /* Assets.xcassets */; };
 		B06818DC25D7164100562BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06818B025D7164100562BD3 /* Assets.xcassets */; };
+		B068190825D71D1B00562BD3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068190725D71D1B00562BD3 /* Persistence.swift */; };
+		B068190925D71D1B00562BD3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068190725D71D1B00562BD3 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B014B5F025D728D800C39E4F /* Dish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dish.xcdatamodel; sourceTree = "<group>"; };
+		B014B5F125D728D800C39E4F /* Dishes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dishes.xcdatamodel; sourceTree = "<group>"; };
 		B06818AE25D7164000562BD3 /* ListCoreScratchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoreScratchApp.swift; sourceTree = "<group>"; };
 		B06818AF25D7164000562BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B06818B025D7164100562BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		B06818D025D7164100562BD3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06818D425D7164100562BD3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B06818D625D7164100562BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B068190725D71D1B00562BD3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +107,8 @@
 			children = (
 				B06818AE25D7164000562BD3 /* ListCoreScratchApp.swift */,
 				B06818AF25D7164000562BD3 /* ContentView.swift */,
+				B068190725D71D1B00562BD3 /* Persistence.swift */,
+				B014B5EF25D728D800C39E4F /* Dish.xcdatamodeld */,
 				B06818B025D7164100562BD3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +318,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06818D925D7164100562BD3 /* ContentView.swift in Sources */,
+				B014B5F225D728D800C39E4F /* Dish.xcdatamodeld in Sources */,
+				B068190825D71D1B00562BD3 /* Persistence.swift in Sources */,
 				B06818D725D7164100562BD3 /* ListCoreScratchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06818DA25D7164100562BD3 /* ContentView.swift in Sources */,
+				B014B5F325D728D800C39E4F /* Dish.xcdatamodeld in Sources */,
+				B068190925D71D1B00562BD3 /* Persistence.swift in Sources */,
 				B06818D825D7164100562BD3 /* ListCoreScratchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +709,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B014B5EF25D728D800C39E4F /* Dish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B014B5F025D728D800C39E4F /* Dish.xcdatamodel */,
+				B014B5F125D728D800C39E4F /* Dishes.xcdatamodel */,
+			);
+			currentVersion = B014B5F025D728D800C39E4F /* Dish.xcdatamodel */;
+			path = Dish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B06818A925D7164000562BD3 /* Project object */;
 }
